@@ -1,0 +1,9 @@
+*{background-color: lightgray;}
+
+
+h1{
+    color: rgb(56, 56, 197);
+    border: 6px solid saddlebrown ;
+    padding: 10px;
+    text-align:center
+}
