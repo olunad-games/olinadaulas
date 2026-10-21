@@ -2,8 +2,15 @@
 
 
 h1{
-    color: rgb(56, 56, 197);
+    color: rgb(49, 49, 102);
     border: 6px solid saddlebrown ;
     padding: 10px;
-    text-align:center
+    text-align:center;
+    background-color: green;
+
+    ;
+}
+h2{
+    color:black;
+    text-align: left;
 }
