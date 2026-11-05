@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cienciadelas.css">
+    <title>Roleta de Cientistas</title>
+</head>
+<body>
+    <!-- o título agora fica DENTRO do banner em gradiente -->
+    <header class="box-degrade">
+        <h1>Roleta de Cientistas</h1>
+        <p>Gire e conheça a história de uma mulher que mudou a ciência.</p>
+    </header>
+
+    <main class="palco">
+        <section class="roleta" aria-label="Roleta de cientistas">
+            <div class="ponteiro" aria-hidden="true"></div>
+            <canvas id="roleta" aria-hidden="true"></canvas>
+            <button id="girar" type="button">Girar a roleta</button>
+        </section>
+
+        <!-- aria-live avisa leitores de tela quando uma cientista é sorteada -->
+        <article class="historia" id="historia" aria-live="polite">
+            <p class="vazio">Gire a roleta para descobrir quem vai aparecer.</p>
+        </article>
+
+
+    </main>
+    <section class="texto">
+        <p>A presença das mulheres na ciência é fundamental para o desenvolvimento da sociedade, pois contribui para novas descobertas, inovações e avanços tecnológicos.
+             Ao longo da história, muitas cientistas enfrentaram preconceitos e dificuldades para conquistar seu espaço. Suas contribuições demonstram que a ciência depende da participação de todos, independentemente do gênero.
+              Portanto, valorizar e incentivar as mulheres na ciência é essencial para construir um futuro mais justo e desenvolvido.</p>
+    </section>
+
+    <script src="cienciadelas.js"></script>
+</body>
+</html>
